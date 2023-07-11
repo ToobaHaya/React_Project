@@ -1,0 +1,45 @@
+.button {
+    background-color: #f39405;
+    color: rgb(255, 255, 255);
+    width: 20%;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1;
+    border-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+
+  
+  button:hover {
+    background-color: #eba447;
+  }
+
+  .buttonn {
+    background-color: #fca503;
+    color: rgb(255, 255, 255);
+    width: 10%;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1;
+    border-color: white;
+    overflow: hidden;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+
+  .btn{
+    background-color: rgb(248, 250, 252);
+    border: 1;
+    border-color: rgb(204, 189, 189);
+
+  }

@@ -1,0 +1,118 @@
+div .body  {
+    width: 360px;
+    height: 580px;
+    display: -webkit-box;
+    padding-top: 4px;
+        margin-right: 20px;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px 30px 30px;
+    -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+    position: relative;
+    overflow: hidden;
+    margin:50px 0px; padding:0px;
+    text-align:center;
+    padding: 10px 0;
+        margin: auto;
+        border-radius: 5px; 
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 40px;
+    margin-bottom :60px;
+    border-radius: 25px;
+    
+  
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form .head {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  form .head span {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: black;
+  }
+  
+  form .head p {
+    font-size: 1.1rem;
+    color: #f3ecec;
+  }
+  
+  form .inputs {
+    overflow: hidden;
+    background-color: #fff;
+    width: 100%;
+    margin: 1rem 0.5rem;
+    border-radius: 8px;
+    border-bottom: none;
+    outline: 0;
+  }
+  
+  form .inputs input {
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+      /* علشان اقدر اخلي البلاس هولدر من اول الفورم بديله نفس الويدس */
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.299);
+    font-weight: 200;
+  }
+  
+  form button {
+    background-color: #f0b55d;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+  
+  form button:hover {
+    background-color: #f3a024;
+  }
+  
+  .form-footer a {
+    font-weight: bolder;
+    color: #fdd656;
+    transition: all 3s ease-in-out;
+  }
+  
+  .form-footer a:hover {
+    color: #f8c63d;
+  }
+  
