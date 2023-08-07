@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import { Card } from 'react-bootstrap'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import Loader from '../Components/Loader'
 import './Product.css'
 import { CartContext } from '../context/context'
 import './Product.css'
@@ -13,7 +12,7 @@ import './Product.css'
 export default function product() {
 
     const [products, setProducts] = useState([])
-    const [loader, setLoader] = useState(true)
+  
 
     const { state, dispatch } = useContext(CartContext)
 
