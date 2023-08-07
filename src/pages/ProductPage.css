@@ -1,5 +1,5 @@
 .button {
-    background-color: #f39405;
+    background-color: #130c01;
     color: rgb(255, 255, 255);
     width: 20%;
     height: 40px;
@@ -17,11 +17,11 @@
 
   
   button:hover {
-    background-color: #eba447;
+    background-color: #f80606;
   }
 
   .buttonn {
-    background-color: #fca503;
+    background-color: #0a0905;
     color: rgb(255, 255, 255);
     width: 10%;
     height: 40px;

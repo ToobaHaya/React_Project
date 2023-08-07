@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState , useContext} from 'react'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import ReactStars from 'react-stars'
@@ -7,6 +7,7 @@ import ImageSection from '../Components/ImageSection'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './ProductPage.css'
+import {CartContext} from '../context/context'
 
 
 
@@ -21,6 +22,7 @@ export default function ProductPage() {
     const [review, setReview] = useState("")
     const [ratingstar, setratingStar] = useState(0)
     const [productQuantity, setproductQuantity] = useState(1)
+    const {state,dispatch} = useContext(CartContext)
 
     const ratingChanged = (newRating) => {
         setratingStar(newRating)
@@ -47,6 +49,7 @@ export default function ProductPage() {
 
     }
 
+
     const addToCart = () => {
 
         const payload = {
@@ -56,6 +59,8 @@ export default function ProductPage() {
         }
 
         console.log(payload)
+            localStorage.setItem('cart', JSON.stringify(payload))
+      
 
         Swal.fire({
             title: 'Added to Cart!',
@@ -92,9 +97,9 @@ export default function ProductPage() {
                     <button className="btn btn-light mx-3" onClick={() => setproductQuantity(productQuantity + 1)}>+</button>
                 </div>
 
-                
-    
-                <button className='buttonn' onClick={addToCart}>Add to Cart</button>
+                <button className='buttonn' onClick={addToCart}> Add to Cart</button>
+
+               
 
 
   </div>
@@ -150,7 +155,7 @@ export default function ProductPage() {
                                     <span className='ms-3'>({ratingstar})</span>
                                 </div>
                             </div>
-                            <button className='button submit' id="buttonn" onClick={submitReview}>Submit review</button>
+                            <button className='button submit' id="buttonn" onClick={submitReview} >Submit review</button>
 
                         </div>
                     </div>
@@ -159,4 +164,5 @@ export default function ProductPage() {
 
         </div>
     )
-}
+
+                }

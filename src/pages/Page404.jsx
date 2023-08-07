@@ -9,7 +9,7 @@ export default function Page404() {
 
     return (
         
-    <img style={{width:'100%' , height:560}} src="https://lapraim.com/assets/images/insights/404-error/404-error.jpg" alt="" srcset="" />
+    <img style={{width:'100%' , height:560}} src="https://media.giphy.com/avatars/404academy/kGwR3uDrUKPI.gif" alt="" srcset="" />
     
  )
  }

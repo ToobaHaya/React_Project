@@ -1,8 +1,4 @@
-body {
-  background-image: url("https://img.freepik.com/free-vector/abstract-orange-background_1182-686.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-}
+
 .form_main {
   width: 360px;
   height: 580px;
@@ -45,7 +41,7 @@ body {
   content: "";
   width: 300px;
   height: 300px;
-  background-color: rgb(240, 170, 67);
+  background-color: rgb(22, 21, 20);
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
@@ -94,9 +90,9 @@ body {
     height: 30px;
     background-color: transparent;
     border: none;
-    border-bottom: 2px solid rgb(173, 173, 173);
+    border-bottom: 2px solid rgb(36, 32, 32);
     margin: 10px 0;
-    color: black;
+    color: rgb(247, 7, 7);
     font-size: .8em;
     font-weight: 500;
     -webkit-box-sizing: border-box;
@@ -106,7 +102,7 @@ body {
   
   .inputField:focus {
     outline: none;
-    border-bottom: 2px solid#fda014;
+    border-bottom: 2px solid#131210;
   }
   
   .inputField::-webkit-input-placeholder {
@@ -144,7 +140,7 @@ body {
     position: relative;
     width: 70%;
     border: none;
-    background-color:#eeb13f;
+    background-color:#302e2a;
     height: 30px;
     color: white;
     font-size: .8em;
@@ -155,7 +151,7 @@ body {
   }
   
   #button:hover{
-    background-color:#fd7e14;
+    background-color:#df1515;
   }
   
   
@@ -163,7 +159,7 @@ body {
     z-index: 4;
     font-size: .7em;
     font-weight: 500;
-    color: rgb(44, 24, 128);
+    color: rgb(11, 10, 15);
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 20px;

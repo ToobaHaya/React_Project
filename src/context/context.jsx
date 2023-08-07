@@ -22,8 +22,8 @@ export default function CartContextProvider({ children }) {
     const [state, dispatch] = useReducer(reducer, initialData)
 
     useEffect(() => {
-        localStorage.setItem('cart', JSON.stringify(state.cart))
-    }, [state.cart])
+      localStorage.setItem('cart', JSON.stringify(state.cart))
+  }, [state.cart])
 
     return (
         <CartContext.Provider value={{ state, dispatch }}>

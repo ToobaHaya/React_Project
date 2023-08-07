@@ -144,6 +144,31 @@ const navigate = useNavigate();
   <p className='forgotLink'>Don't have account <span><NavLink to="/Signup">Sign Up</NavLink> </span> </p>
 </form>
 
+
+{/* 
+<div className="login-box">
+  <form>
+    <div className="user-box">
+      <input 
+      type="email"
+       name='email'
+       onChange={getdata} placeholder="Enter email" required="" />
+      <label>Email</label>
+    </div>
+    <div className="user-box">
+      <input type="password" onChange={getdata}
+      name='password' required="" />
+      <label>Password</label>
+    </div>
+    <center>
+      <a href="#">
+        LogIn
+        <span />
+      </a>
+    </center>
+  </form>
+</div> */}
+
     </>
   )
 }
